@@ -5,8 +5,8 @@ from faker import Faker
 from sqlalchemy import delete
 from sqlalchemy.orm import Session
 
-from app.db import SessionLocal  # :contentReference[oaicite:2]{index=2}
-from app.models import Group, Student, Teacher, Subject, Grade  # :contentReference[oaicite:3]{index=3}
+from app.db import SessionLocal
+from app.models import Group, Student, Teacher, Subject, Grade
 
 
 fake = Faker("uk_UA")
